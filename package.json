@@ -26,8 +26,6 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "gulp-wp-pot": "^2.2.0",
-    "jshint": "^2.9.5",
-    "webpack-stream": "^4.0.3"
-  },
-  "dependencies": {}
+    "jshint": "^2.9.5"
+  }
 }

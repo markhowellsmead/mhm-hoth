@@ -128,7 +128,8 @@ function mhm_hoth_scripts()
 
 	wp_enqueue_style('mhm-hoth-style', get_stylesheet_uri(), [], $theme->Version);
 
-	wp_enqueue_script('mhm-hoth-theme', get_template_directory_uri() . '/assets/dist/scripts/theme.min.js', [], $theme->Version, true);
+	wp_enqueue_script('jquery');
+	wp_enqueue_script('mhm-hoth-theme', get_template_directory_uri() . '/assets/dist/scripts/main.min.js', [], $theme->Version, true);
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');
